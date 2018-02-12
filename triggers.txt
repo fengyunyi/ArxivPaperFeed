@@ -1,0 +1,25 @@
+# trigger file: specify what papers do you want
+
+# subject trigger named t1
+t1 SUBJECT SOFTWARE
+
+# title trigger named t2
+t2 TITLE Dapps
+
+# phrase trigger named t3
+t3 PHRASE smart contract
+
+# title trigger named t4
+t4 TITLE decentralized
+
+# title trigger named t5
+t5 TITLE blockchain
+
+# title trigger named t6
+t6 TITLE block-chain
+
+# composite trigger named t7
+t7 OR t2 t3 t3 t4 t5 t6
+
+# the trigger set contains t1 and t4
+ADD t7
